@@ -1,0 +1,40 @@
+.about-sec{
+    margin-top: 25px;
+    }
+    .text-color{
+    color: #000;
+    }
+    .watch-img{
+    margin-top: 35px;
+    }
+    .watch-img{
+    animation-name: imgLeft;
+    animation-duration: 3s;
+    
+    }
+    .about-text{
+    animation-name:textRight;
+    animation-duration: 3s;
+    }
+    @keyframes imgLeft {
+    0%{
+      transform:translateX(-120px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+    }
+    }
+    
+    @keyframes textRight {
+    0%{
+      transform:translateX(30px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+      opacity: 1;
+    }
+    }
+    
